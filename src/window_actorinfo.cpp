@@ -62,7 +62,7 @@ void Window_ActorInfo::DrawInfo() {
 	DrawActorTitle(Game_Actors::GetActor(actor_id), 36, 125);
 
 	// Draw Status
-	contents->TextDraw(3, 140, 1, "Status");
+	contents->TextDraw(3, 140, 1, Data::terms.status);
 	DrawActorState(Game_Actors::GetActor(actor_id), 36, 155);
 
 	//Draw Level
